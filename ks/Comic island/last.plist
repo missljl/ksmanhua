@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imagename</key>
+		<string>http://image.mylife.u17t.com/2016/12/28/1482920243_f2kF1UculvH7.jpg</string>
+		<key>leixin</key>
+		<string>theme</string>
+		<key>leiid</key>
+		<string>7</string>
+		<key>name</key>
+		<string>战争</string>
+	</dict>
+	<dict>
+		<key>imagename</key>
+		<string>http://image.mylife.u17t.com//2016//12//28//1482920257_yznXvXJcrvk8.jpg</string>
+		<key>leixin</key>
+		<string>special</string>
+		<key>leiid</key>
+		<string>46</string>
+		<key>name</key>
+		<string>古风</string>
+	</dict>
+	<dict>
+		<key>imagename</key>
+		<string>http://image.mylife.u17t.com//2016//12//28//1482920418_vA222B8m6qi3.jpg</string>
+		<key>leixin</key>
+		<string>special</string>
+		<key>leiid</key>
+		<string>38</string>
+		<key>name</key>
+		<string>火影</string>
+	</dict>
+	<dict>
+		<key>imagename</key>
+		<string>http://image.mylife.u17t.com//2016//12//28//1482920437_Cmg3we0vH3me.jpg</string>
+		<key>leixin</key>
+		<string>cate</string>
+		<key>leiid</key>
+		<string>3</string>
+		<key>name</key>
+		<string>萝莉</string>
+	</dict>
+</array>
+</plist>

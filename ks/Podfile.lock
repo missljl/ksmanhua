@@ -1,0 +1,69 @@
+PODS:
+  - BmobSDK (2.0.1)
+  - React/ART (0.44.3):
+    - React/Core
+  - React/Core (0.44.3):
+    - React/cxxreact
+    - Yoga (= 0.44.3.React)
+  - React/cxxreact (0.44.3):
+    - React/jschelpers
+  - React/jschelpers (0.44.3)
+  - React/RCTActionSheet (0.44.3):
+    - React/Core
+  - React/RCTAdSupport (0.44.3):
+    - React/Core
+  - React/RCTAnimation (0.44.3):
+    - React/Core
+  - React/RCTGeolocation (0.44.3):
+    - React/Core
+  - React/RCTImage (0.44.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.44.3):
+    - React/Core
+  - React/RCTNetwork (0.44.3):
+    - React/Core
+  - React/RCTPushNotification (0.44.3):
+    - React/Core
+  - React/RCTSettings (0.44.3):
+    - React/Core
+  - React/RCTText (0.44.3):
+    - React/Core
+  - React/RCTVibration (0.44.3):
+    - React/Core
+  - React/RCTWebSocket (0.44.3):
+    - React/Core
+  - Yoga (0.44.3.React)
+
+DEPENDENCIES:
+  - BmobSDK
+  - React/ART (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/Core (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTActionSheet (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTAdSupport (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTAnimation (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTGeolocation (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTImage (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTNetwork (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTPushNotification (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTSettings (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTText (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTVibration (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - React/RCTWebSocket (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native`)
+  - Yoga (from `/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: /Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native
+  Yoga:
+    :path: /Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  BmobSDK: 315013af15af31697a3b92cad2c74effed849b85
+  React: e53535491f7b382b8cd681428dd853159bf25545
+  Yoga: f2b1f5b59fadb774a3dd9932a7cf813c6e284d71
+
+PODFILE CHECKSUM: 18a1a72ae0ba9af8f1b2f440d166e4174c579483
+
+COCOAPODS: 1.4.0

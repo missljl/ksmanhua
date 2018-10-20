@@ -1,0 +1,28 @@
+source 'https://git.coding.net/hging/Specs.git'
+
+platform :ios, '8.0'
+
+target “Comic island” do
+
+pod 'BmobSDK'
+pod 'React', :path => ‘/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native', :subspecs => [
+ 'Core',
+  'ART',
+  'RCTActionSheet',
+  'RCTAdSupport',
+  'RCTGeolocation',
+  'RCTImage',
+  'RCTNetwork',
+  'RCTPushNotification',
+  'RCTSettings',
+  'RCTText',
+  'RCTVibration',
+  'RCTWebSocket',
+  'RCTLinkingIOS',
+  'RCTAnimation'
+]
+
+  # 如果你的RN版本 >= 0.42.0，则加入下面这行
+ pod "Yoga", :path => '/Users/ljl/Desktop/iOS/项目/个人项目源码/ks/node_modules/react-native/ReactCommon/yoga'
+
+end

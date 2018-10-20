@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="searcell" id="gTV-IL-0wX" customClass="SearCell">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="77" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w1x-5L-Cph">
+                        <rect key="frame" x="0.0" y="0.0" width="77" height="50"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HH7-X5-Tzp">
+                        <rect key="frame" x="0.0" y="17" width="77" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="eCN-4i-brE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="HH7-X5-Tzp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GZ3-YA-eAm"/>
+                <constraint firstItem="w1x-5L-Cph" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ID6-jX-PNR"/>
+                <constraint firstItem="HH7-X5-Tzp" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Ido-PI-5Uh"/>
+                <constraint firstAttribute="trailing" secondItem="HH7-X5-Tzp" secondAttribute="trailing" id="PEi-8d-fZR"/>
+                <constraint firstAttribute="trailing" secondItem="w1x-5L-Cph" secondAttribute="trailing" id="adI-0N-LQJ"/>
+                <constraint firstAttribute="bottom" secondItem="w1x-5L-Cph" secondAttribute="bottom" id="iXl-gn-2c5"/>
+                <constraint firstItem="w1x-5L-Cph" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mEg-2L-pIT"/>
+            </constraints>
+            <connections>
+                <outlet property="searImageview" destination="w1x-5L-Cph" id="gQy-iJ-gNs"/>
+                <outlet property="searTitleLabel" destination="HH7-X5-Tzp" id="E09-s0-WTx"/>
+            </connections>
+            <point key="canvasLocation" x="203.5" y="202"/>
+        </collectionViewCell>
+    </objects>
+</document>

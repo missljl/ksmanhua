@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="projectcell" id="KGk-i7-Jjw" customClass="ProjectCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="keC-Pp-Ywp">
+                        <rect key="frame" x="5" y="5" width="310" height="109"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="keC-Pp-Ywp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="1ef-v3-330"/>
+                    <constraint firstAttribute="trailing" secondItem="keC-Pp-Ywp" secondAttribute="trailing" constant="5" id="6c2-G8-jvk"/>
+                    <constraint firstItem="keC-Pp-Ywp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="iiR-DD-DRO"/>
+                    <constraint firstAttribute="bottom" secondItem="keC-Pp-Ywp" secondAttribute="bottom" constant="5" id="wx9-I0-mnp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="projectImageview" destination="keC-Pp-Ywp" id="zbU-4E-8lp"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
